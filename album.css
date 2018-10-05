@@ -1,25 +1,26 @@
 :root {
   --jumbotron-padding-y: 3rem;
- 
+
 }
 
 .jumbotron {
   padding-top: var(--jumbotron-padding-y);
   padding-bottom: var(--jumbotron-padding-y);
   margin-bottom: 0;
-  background-color: rgb(135, 233, 207);
+  background-color: rgb(135, 215, 233);
 }
+
 @media (min-width: 768px) {
   .jumbotron {
     padding-top: calc(var(--jumbotron-padding-y) * 2);
     padding-bottom: calc(var(--jumbotron-padding-y) * 2);
-    background-color: rgb(135, 233, 207);
+    background-color: rgb(135, 215, 233);
   }
 }
 
 .jumbotron p:last-child {
   margin-bottom: 0;
-   background-color:(135, 233, 207);
+  background-color: (135, 215, 233);
 }
 
 .jumbotron-heading {
@@ -28,7 +29,7 @@
 
 .jumbotron .container {
   max-width: 40rem;
-  background-color :rgb(135, 233, 207);
+  background-color: rgb(135, 215, 233);
 }
 
 
@@ -40,12 +41,11 @@ footer {
 
 .footer p {
   margin-bottom: 25rem;
-   background-color:  rgb(135, 233, 207);
+  background-color: rgb(135, 215, 233);
 }
 
 
 
-.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
-
-
-
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
